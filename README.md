@@ -1,6 +1,6 @@
 # BrowserConwayGameOfLife
 
-TODO: Write a gem description
+The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
 
 ## Installation
 
@@ -20,11 +20,28 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```bash
+  ruby run.rb # or shotgun run.rb # or rake
+```
+Type in your favourite browser
+http://localhost:4567
+
+### TODO
+
+- [x] Create gem
+- [x] Create Git repository
+- [x] Create Conway's Game of Life with OOP principles
+- [ ] Create tests (i.e. Rspec)
+- [ ] Create proper structure application (Gemfile, Rakefile, README, directories lib/, public/, views/, test/)
+- [ ] Add Sinatra & DataMapper gems for start web application
+- [ ] Create Erb, Haml and Slim templates for views
+- [ ] Create CSS files
+- [ ] Create JavaScript files
+
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/browser_conway_game_of_life/fork )
+1. Fork it ( https://github.com/randsina/browser_conway_game_of_life/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
