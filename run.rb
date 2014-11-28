@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 require 'pry'
-require_relative 'lib/browser_conway_game_of_life'
-Dir[File.expand_path("lib/browser_conway_game_of_life/*.rb")].each { |f| require f }
+Dir[File.expand_path("lib/*.rb")].each { |f| require f }
 
 include BrowserConwayGameOfLife
 

@@ -28,7 +28,6 @@ http://localhost:4567
 
 ### TODO
 
-- [x] Create gem
 - [x] Create Git repository
 - [x] Create Conway's Game of Life with OOP principles
 - [ ] Create tests (i.e. Rspec)
